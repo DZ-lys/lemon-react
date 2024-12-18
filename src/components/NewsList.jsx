@@ -15,7 +15,7 @@ const List1 = [
         image: "image3.webp",
         pub: "Сурталчилгаа",
         title: "Ариглан гамнаж, ашигтай хадгал",
-        journalist: "Б. Эмүжин / 12 сарын 17, 2024"
+        journalist: "Б.Эмүжин / 12 сарын 17, 2024"
     },
     {
         image: "image4.webp",
@@ -41,7 +41,7 @@ const List2 = [
         image: "image7.webp",
         pub: "Сурталчилгаа",
         title: "Монгол бартендер дэлхийд өрсөлдлөө",
-        journalist: "Б. Эмүжин / 12 сарын 16, 2024"
+        journalist: "Б.Эмүжин / 12 сарын 16, 2024"
     },
     {
         image: "image8.webp",

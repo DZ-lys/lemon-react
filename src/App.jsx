@@ -5,16 +5,23 @@ import Scroll from "./components/Scroll";
 import Mbartender from "./components/Mbartender";
 import SideNews from "./components/SideNews";
 import NewsList from "./components/NewsList";
+import Cards from "./components/Cards";
+import Headline from "./components/Headline";
 
 const App = () =>{
     return (
         <div>
             <Hheader />
             <Slider /> 
-            <div className="scrollMedia">
-                <Scroll />
-                <Mbartender />
-                <SideNews />
+            <div className="mediaSection">
+                <div>
+                    <div><Headline /></div>
+                    <div className="scrollMedia">
+                        <Scroll />
+                        <Mbartender />
+                    </div>
+                </div>
+                <div><SideNews /></div>
             </div>
             <div className="listContainer">
                 <NewsList />
@@ -25,6 +32,7 @@ const App = () =>{
                     </div>
                 </div>
             </div>
+            <Cards />
         </div>
     );
 }
