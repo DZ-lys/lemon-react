@@ -14,9 +14,9 @@ header{
     align-items: center;
     background-color: whitesmoke;
     margin-bottom: 30px;
-    position: fixed;
+    position: sticky;
     top: 0;
-     right: 0;
+    right: 0;
     left: 0;
     z-index: 999;
 }
@@ -395,6 +395,7 @@ header{
     background-color: rgb(240, 240, 255);
 }
 .path{
+    background-color: aqua;
     width: 380px;
     height: auto;
     position: relative;
