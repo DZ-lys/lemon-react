@@ -1,6 +1,6 @@
 const Hheader = () => {
     return (
-        <div className="header">
+        <header>
             <div className="header-left">
                <img src="./lemon-logo.svg" alt="" /> 
                <h3>Товхимол <span>&gt;</span></h3>
@@ -13,7 +13,7 @@ const Hheader = () => {
                 <div><img src="./search.svg" alt="" /></div>
                 <button>Уншаад үзье</button>
             </div>
-        </div>
+        </header>
     );
 }
 

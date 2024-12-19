@@ -21,7 +21,7 @@ const App = () =>{
                         <Mbartender />
                     </div>
                 </div>
-                <div><SideNews /></div>
+                <SideNews />
             </div>
             <div className="listContainer">
                 <NewsList />

@@ -6,7 +6,7 @@
 }
 
 /* HEADER section */
-.header{
+header{
     width: 100%;
     height: 70px;
     display: flex;
@@ -14,9 +14,11 @@
     align-items: center;
     background-color: whitesmoke;
     margin-bottom: 30px;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 5;
+     right: 0;
+    left: 0;
+    z-index: 999;
 }
 .header-left{
     display: flex;
@@ -131,16 +133,23 @@
         opacity: 0.4;
     }
 }
+
+/* HEADLINE section */
 .mediaSection{
-    background-color: blueviolet;
     margin: auto;
     margin-top: 30px;
     max-width: 1200px;
     display: flex;
     gap: 20px;
 }
-
-/* HEADLINE section */
+.headline{
+    width: 790px;
+    height: 580px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 .headlineImg{
     width: 790px;
     height: 470px;
@@ -148,6 +157,21 @@
 }
 .headlineImg img{
     width: 100%;
+}
+.headlineText{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.headlineText h5{
+    color: #0040d4;
+}
+.headlineText p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 /* SCROLL and BARTENDER section */
@@ -160,7 +184,7 @@
     background-color: black;
     color: white;
     width: 385px;
-    height: 560px;
+    height: 580px;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -209,7 +233,7 @@
 }
 .bartender{
     width: 385px;
-    height: 560px;
+    height: 580px;
     border-radius: 8px;
     overflow: hidden;
     display: flex;
@@ -236,13 +260,23 @@
 }
 
 /* SIDE NEWS section */
-.sideNews{
+.sideMedia{
     width: 390px;
-    height: 520px;
+    max-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sideBlock{
+    width: 390px;
+    height: 580px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
 }
 .sideImg{
     width: 100%;
-    height: 120px;
+    height: 190px;
     overflow: hidden;
     transition: filter 0.3s linear;
 }
@@ -253,36 +287,33 @@
 .sideImg img{
     width: 100%;
 } 
-.sideContainer{
+.sideTexts{
     background-color: ghostwhite;
-    width: 390px;
-    height: 380px;
-    margin-top: 20px;
-    border: 1px solid rgba(128, 128, 128, 0.2);
-    border-radius: 8px;
+    width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: column;
 }
-.side{
+.sideText{
     margin: auto;
     width: 90%;
     border-top: 1px solid rgba(128, 128, 128, 0.2);
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 25px;
+    padding-bottom: 27px;
     transition: opacity 0.2s linear;
 }
-.side:hover{
+.sideText:hover{
     cursor: pointer;
     opacity: 0.7;
 }
-.side h6{
+.sideText h6{
     color: #0040d4;
     margin-bottom: 10px;
 }
-.side h4{
+.sideText h4{
     margin-bottom: 10px;
 }
-.side p{
+.sideText p{
     font-size: 12px;
     color: rgba(0, 0, 0, 0.4);
 }
